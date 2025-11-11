@@ -3,7 +3,7 @@ import requests
 import base64
 
 # Replace this with your actual key
-API_KEY = r"AIzaSyDuBb_Hs4J91ugUTHifc9PCYBPfWEEkdPg"
+API_KEY = r"Google_api_key"
 VISION_URL = f"https://vision.googleapis.com/v1/images:annotate?key={API_KEY}"
 GEOCODE_URL = "https://maps.googleapis.com/maps/api/geocode/json"
 
@@ -72,3 +72,4 @@ if uploaded_file:
         else:
             st.error("❌ Could not find any location or labels.")
             st.code(result)
+
